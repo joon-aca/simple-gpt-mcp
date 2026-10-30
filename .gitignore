@@ -1,0 +1,26 @@
+# Dependencies and generated artifacts
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.mcp.json
+.mcp-tools.json
+
+# Runtime data, databases, downloads, and diagnostics
+.simple-gpt-mcp/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+artifacts/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
