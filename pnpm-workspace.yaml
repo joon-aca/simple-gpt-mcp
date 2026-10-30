@@ -1,0 +1,6 @@
+# Refuse to install on a Node version outside package.json engines.
+engineStrict: true
+
+# No dependency install scripts run. tsx uses esbuild's prebuilt platform package.
+ignoredBuiltDependencies:
+  - esbuild
